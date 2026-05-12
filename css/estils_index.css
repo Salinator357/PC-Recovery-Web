@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body p {
+    font-family: arial;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    font-family: arial;
+    display: inline;
+    margin-right: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contenedor_encabezado {
+    background-color: #00b32d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+}
+
+.logo_encabezado {
+    height: auto;
+    width: 500px;
+}
+
+.contenedor_logo {
+    display: flex;
+    margin-right: 5%;
+}
+
+.contenedor_navegacion {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.contenedor_idiomas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bandera {
+    height: 50px;
+    width: 75px;
+    padding-right: 75px;
+}
+
+.imagen_sede {
+    width: 100%;
+    height: auto;
+}
