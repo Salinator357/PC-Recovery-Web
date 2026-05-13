@@ -22,6 +22,11 @@ li {
 li a {
     text-decoration: none;
     color: inherit;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 .contenedor_encabezado {
@@ -30,6 +35,12 @@ li a {
     flex-direction: row;
     align-items: center;
     /*justify-content: space-evenly;*/
+}
+
+.bandera {
+    height: 50px;
+    width: 75px;
+    padding-right: 75px;
 }
 
 .logo_encabezado {
@@ -54,13 +65,46 @@ li a {
     justify-content: space-evenly;
 }
 
-.bandera {
-    height: 50px;
-    width: 75px;
-    padding-right: 75px;
+.fondo_pagina {
+    width: 100%;
+    position: relative;
 }
 
-.imagen_sede {
+.fondo_pagina img {
     width: 100%;
-    height: auto;
+    display: block;
+}
+
+.contenido {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 7%;
+}
+
+.contenido h1 {
+    color: white;
+    font-size: 75px;
+    font-family: arial;
+}
+
+.contenido h2 {
+    color: white;
+    font-size: 50px;
+    font-family: arial;
+    margin-bottom: 5%;
+}
+
+.contenido a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton_servicios {
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    border: 2px solid white;
+    display: inline;
+    padding: 10px;
 }
