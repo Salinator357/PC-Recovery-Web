@@ -80,13 +80,12 @@ h1 {
     font-size: 50px;
 }
 
-h2 {
+.seccion_grupal h2 {
     font-family: arial;
     color: white;
     font-weight: bold;
     font-size: 35px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 h3 {
@@ -94,6 +93,87 @@ h3 {
     color: white;
     font-style: italic;
     font-size: 35px;
+}
+
+.seccion_ods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion_ods p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.seccion_ods_fotos {
+    display: flex;
+    flex-direction: row;
+}
+
+.ods {
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+}
+
+.ods12 {
+    background-image: url("../img/sobrenosotros/ods/ods12.png");
+}
+
+.ods13 {
+    background-image: url("../img/sobrenosotros/ods/ods13.png");
+}
+
+.ods4 {
+    background-image: url("../img/sobrenosotros/ods/ods4.png");
+}
+
+.seccion_ods_texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.seccion_ods_texto h2 {
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+
+.seccion_ods_texto p {
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+}
+
+.ods12_texto {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.ods13_texto {
+    margin-bottom: 5%;
+}
+
+.ods4_texto {
+    margin-bottom: 5%;
+}
+
+.separador {
+    display: flex;
+    height: 100px;
+    background-color: #00851f;
+    align-items: center;
+}
+
+.separador h1 {
+    margin-left: 2%;
 }
 
 .seccion_grupal {
